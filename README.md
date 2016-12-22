@@ -19,6 +19,7 @@ file-size
 "rimraf": "2.5.4",
 "semver": "5.3.0",
 cross-env
+https://github.com/FormidableLabs/nodejs-dashboard?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning
 
 ## Webpack
 - [] Webpack:
@@ -37,6 +38,7 @@ cross-env
 "webpack-md5-hash": "0.0.5",
 "webpack-node-externals": "1.5.4"
 friendly-errors-webpack-plugin
+webpack dashboard
 
 ### Webpack Plugins
 https://github.com/soundcloud/chunk-manifest-webpack-plugin
@@ -119,6 +121,7 @@ bcrypt
 - [] serialize-javascript
 - [] sanitizer
 https://www.npmjs.com/package/letsencrypt-express
+https://github.com/electrode-io/electrode-csrf-jwt
 
 # Offline / Perf
 - [] Offline Plugin
