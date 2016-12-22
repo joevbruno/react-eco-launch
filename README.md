@@ -60,6 +60,7 @@ browser-sync
 # Testing
 - [] Jest
 - [] Expect
+invariant
 
 # Types
 "flow-bin": "0.37.0",
@@ -85,8 +86,14 @@ browser-sync
 
 # API Server
 - [] express
-
+ "body-parser": "^1.15.2",
+ serve-favicon
+ morgan 
+"cookie-parser": "^1.3.5",
+"debug": "^2.0.0",
+    
 # API Security
+bcrypt
 - [] uuid
 - [] helmet
 - [] hpp
@@ -102,6 +109,7 @@ browser-sync
 "extract-text-webpack-plugin": "2.0.0-beta.4",
 postcss / autoprefixing
 styled-components
+"classnames": "^2.2.5",
 
 # Internationalization
 https://github.com/ctrlplusb/react-universally/issues/254
@@ -113,6 +121,7 @@ https://github.com/electrode-io/electrode-react-ssr-caching
 # React
 - [] Use Preact(?)
 - [] React-dom
+- [] react-addons-pure-render-mixin
 - [] react-router 4
 - [] Use react-virtualized?
 - [] react-helmet
