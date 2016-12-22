@@ -2,7 +2,7 @@
 A starter kit / boilerplate for react-ecosystem stuff
 
 # Setup
-- [] Latest LST node
+-[] Latest LST node
 - [] yarn
 - [] Huskey
 
