@@ -4,6 +4,7 @@ A starter kit / boilerplate for react-ecosystem stuff
 # Setup
 - [] Latest LST node
 - [] yarn
+- [] Huskey
 
 # Compiling
 - [] app-root-dir
@@ -11,11 +12,13 @@ A starter kit / boilerplate for react-ecosystem stuff
 - [] compression (in Webpack client)
 - [] dotenv
 - [] source-map-support
+file-size
 "chokidar": "1.6.1",
 "glob": "7.1.1",
 "node-notifier": "4.6.1",
 "rimraf": "2.5.4",
 "semver": "5.3.0",
+cross-env
 
 ## Webpack
 - [] Webpack:
@@ -33,6 +36,7 @@ A starter kit / boilerplate for react-ecosystem stuff
 "webpack-hot-middleware": "2.13.2",
 "webpack-md5-hash": "0.0.5",
 "webpack-node-externals": "1.5.4"
+friendly-errors-webpack-plugin
 
 ### Webpack Plugins
 https://github.com/soundcloud/chunk-manifest-webpack-plugin
@@ -43,14 +47,19 @@ polyfill.io
 
 
 ## Babel
-  "babel-plugin-transform-class-properties": "6.19.0",
-  "babel-plugin-transform-es2015-destructuring": "6.19.0",
   "babel-plugin-transform-object-rest-spread": "6.20.2",
   "babel-plugin-transform-react-jsx-self": "6.11.0",
   "babel-plugin-transform-react-jsx-source": "6.9.0",
+  "babel-plugin-react-transform": "2.0.0",
+  "babel-plugin-transform-decorators-legacy": "1.3.4",
+  "babel-plugin-transform-react-constant-elements": "6.9.1",
+  "babel-plugin-transform-react-inline-elements": "6.8.0",
   "babel-preset-env": "1.0.2",
   "babel-preset-latest": "6.16.0",
-  "babel-preset-react": "6.16.0",
+  "babel-preset-react": "6.16.0"
+  "babel-plugin-module-resolver": "2.4.0",
+  "babel-plugin-transform-async-to-generator": "6.16.0",
+  "babel-plugin-transform-class-properties": "6.19.0",
  
 ## Dev
 "react-hot-loader": "3.0.0-beta.6",
@@ -60,7 +69,9 @@ browser-sync
 # Testing
 - [] Jest
 - [] Expect
+- [] enzyme
 invariant
+react-addons-test-utils
 
 # Types
 "flow-bin": "0.37.0",
@@ -77,6 +88,8 @@ invariant
 "eslint-plugin-jsx-a11y": "2.2.3",
 "eslint-plugin-react": "6.8.0",
 
+codeclimate-test-reporter
+
 # CI Services
 - [] 
 
@@ -91,6 +104,12 @@ invariant
  morgan 
 "cookie-parser": "^1.3.5",
 "debug": "^2.0.0",
+multer
+nodemailer
+passport
+
+# DB
+connect-mongo
     
 # API Security
 bcrypt
@@ -99,9 +118,12 @@ bcrypt
 - [] hpp
 - [] serialize-javascript
 - [] sanitizer
+https://www.npmjs.com/package/letsencrypt-express
 
-# Offline
+# Offline / Perf
 - [] Offline Plugin
+- [] fastclick
+
 
 # Styles
 - [] Normalize.css
@@ -110,6 +132,7 @@ bcrypt
 postcss / autoprefixing
 styled-components
 "classnames": "^2.2.5",
+color: https://www.npmjs.com/package/color
 
 # Internationalization
 https://github.com/ctrlplusb/react-universally/issues/254
@@ -125,6 +148,7 @@ https://github.com/electrode-io/electrode-react-ssr-caching
 - [] react-router 4
 - [] Use react-virtualized?
 - [] react-helmet
+- [] CSS transition group
 
 # Redux
 - [] redux-thunk, sagas, observable, logic, modules
@@ -139,7 +163,23 @@ https://github.com/electrode-io/electrode-react-ssr-caching
 - [] RxJs
 - [] D3 / Victory (?)
 - [] Ramda
-- [] 
+- [] moment
+
+# Utilitity Type
+https://www.npmjs.com/package/slug
+shallowequal
+https://www.npmjs.com/package/query-string
+- [] mimetypes
+numeral
+
+
+## Keep in mind
+https://github.com/madrobby/keymaster
+https://github.com/noeldelgado/react-gemini-scrollbar
+
+## Image Processing
+https://www.npmjs.com/package/sharp
+react-dropzone
 
   
 
