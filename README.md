@@ -1,2 +1,136 @@
 # react-eco-launch
 A starter kit / boilerplate for react-ecosystem stuff
+
+# Setup
+- [] Latest LST node
+- [] yarn
+
+# Compiling
+- [] app-root-dir
+- [] code-split-component
+- [] compression (in Webpack client)
+- [] dotenv
+- [] source-map-support
+"chokidar": "1.6.1",
+"glob": "7.1.1",
+"node-notifier": "4.6.1",
+"rimraf": "2.5.4",
+"semver": "5.3.0",
+
+## Webpack
+- [] Webpack:
+- [] Webpack Assets Plugin
+"happypack": "3.0.1",
+"html-webpack-plugin": "2.24.1",
+"css-loader": "0.26.1",
+"file-loader": "0.9.0",
+"json-loader": "0.5.4",
+"md5": "2.2.1",
+"style-loader": "0.13.1",
+"webpack": "2.1.0-beta.28",
+"webpack-bundle-analyzer": "2.1.1",
+"webpack-dev-middleware": "1.8.4",
+"webpack-hot-middleware": "2.13.2",
+"webpack-md5-hash": "0.0.5",
+"webpack-node-externals": "1.5.4"
+
+### Webpack Plugins
+https://github.com/soundcloud/chunk-manifest-webpack-plugin
+
+## Polyfills
+polyfill.io
+"regenerator-runtime": "0.10.1",
+
+
+## Babel
+  "babel-plugin-transform-class-properties": "6.19.0",
+  "babel-plugin-transform-es2015-destructuring": "6.19.0",
+  "babel-plugin-transform-object-rest-spread": "6.20.2",
+  "babel-plugin-transform-react-jsx-self": "6.11.0",
+  "babel-plugin-transform-react-jsx-source": "6.9.0",
+  "babel-preset-env": "1.0.2",
+  "babel-preset-latest": "6.16.0",
+  "babel-preset-react": "6.16.0",
+ 
+## Dev
+"react-hot-loader": "3.0.0-beta.6",
+browser-sync
+
+
+# Testing
+- [] Jest
+- [] Expect
+
+# Types
+"flow-bin": "0.37.0",
+"flow-coverage-report": "0.2.0",
+"flow-remove-types": "1.1.2",
+"flow-typed": "2.0.0",
+
+# Quality
+- Eslint / Babel Eslint
+"eslint": "3.12.1",
+"eslint-config-airbnb": "13.0.0",
+"eslint-plugin-flowtype": "2.29.1",
+"eslint-plugin-import": "2.2.0",
+"eslint-plugin-jsx-a11y": "2.2.3",
+"eslint-plugin-react": "6.8.0",
+
+# CI Services
+- [] 
+
+# Deploying
+- [] Docker
+- [] AWS(?)
+
+# API Server
+- [] express
+
+# API Security
+- [] uuid
+- [] helmet
+- [] hpp
+- [] serialize-javascript
+- [] sanitizer
+
+# Offline
+- [] Offline Plugin
+
+# Styles
+- [] Normalize.css
+- [] Modernizer
+"extract-text-webpack-plugin": "2.0.0-beta.4",
+postcss / autoprefixing
+styled-components
+
+# Internationalization
+https://github.com/ctrlplusb/react-universally/issues/254
+
+# SSR
+https://github.com/electrode-io/electrode-react-ssr-caching
+
+
+# React
+- [] Use Preact(?)
+- [] React-dom
+- [] react-router 4
+- [] Use react-virtualized?
+- [] react-helmet
+
+# Redux
+- [] redux-thunk, sagas, observable, logic, modules
+- [] redux-search
+- [] redux analytics middleware
+
+# MapStateToProps
+- [] selectors paradigm
+- [] reselect
+
+# Other Libs
+- [] RxJs
+- [] D3 / Victory (?)
+- [] Ramda
+- [] 
+
+  
+
