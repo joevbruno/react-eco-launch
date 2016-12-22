@@ -40,6 +40,11 @@ https://github.com/FormidableLabs/nodejs-dashboard?utm_source=SitePoint&utm_medi
 friendly-errors-webpack-plugin
 webpack dashboard
 webpack-isomorphic-tools
+ "webpack-bundle-analyzer": "2.1.1",
+    "webpack-dev-middleware": "1.9.0",
+    "webpack-hot-middleware": "2.13.2",
+    "webpack-md5-hash": "0.0.5"
+webpack validator
 
 ### Webpack Plugins
 https://github.com/soundcloud/chunk-manifest-webpack-plugin
@@ -47,7 +52,6 @@ https://github.com/soundcloud/chunk-manifest-webpack-plugin
 ## Polyfills
 polyfill.io
 "regenerator-runtime": "0.10.1",
-
 
 ## Babel
   "babel-plugin-transform-object-rest-spread": "6.20.2",
@@ -60,6 +64,8 @@ polyfill.io
   "babel-plugin-transform-react-inline-elements": "6.8.0",
   https://www.npmjs.com/package/babel-plugin-typecheck
   babel-preset-react-optimize
+      "babel-plugin-react-intl": "^2.1.1",
+
   "babel-preset-env": "1.0.2",
   "babel-preset-latest": "6.16.0",
   "babel-preset-react": "6.16.0"
@@ -78,6 +84,8 @@ browser-sync
 - [] Expect
 - [] enzyme
 - [] jsdom
+    "babel-jest": "17.0.2",
+
 invariant
 react-addons-test-utils
 
@@ -103,6 +111,7 @@ codeclimate-test-reporter
 
 # CI Services
 - [] 
+raven-js
 
 # Deploying
 - [] Docker
@@ -138,6 +147,7 @@ https://github.com/electrode-io/electrode-csrf-jwt
 # Offline / Perf
 - [] Offline Plugin
 - [] fastclick
+https://www.npmjs.com/package/localforage
 
 
 # Styles
@@ -147,10 +157,15 @@ https://github.com/electrode-io/electrode-csrf-jwt
 postcss / autoprefixing / fix flex bugs
 styled-components
 "classnames": "^2.2.5",
-color: https://www.npmjs.com/package/color
+color: https://www.npmjs.com/package/color 
+chroma-js
 
 # Internationalization
 https://github.com/ctrlplusb/react-universally/issues/254
+"intl": "^1.0.0",
+    "intl-locales-supported": "^1.0.0",
+    "intl-messageformat": "^1.1.0",
+    "intl-relativeformat": "^1.1.0",
 
 # SSR
 https://github.com/electrode-io/electrode-react-ssr-caching
@@ -163,6 +178,8 @@ https://github.com/electrode-io/electrode-react-ssr-caching
 - [] react-router 4
 - [] Use react-virtualized?
 - [] react-helmet
+ "react-gravatar": "^2.4.4",
+    "react-intl": "^2.1.2",
 - [] CSS transition group
 react-deep-force-update
 
@@ -174,6 +191,13 @@ multireducer
 https://www.npmjs.com/package/redux-async-connect
 redux-form
 https://www.npmjs.com/package/violet-paginator
+ "redux-logger": "^2.7.4",
+    "redux-observable": "^0.12.1",
+    "redux-persist": "4.0.0-beta1",
+   "redux-devtools": "^3.0.0-beta-3",
+    "redux-devtools-dock-monitor": "^1.0.0-beta-3",
+    "redux-devtools-log-monitor": "^1.0.0-beta-3",
+    redux-immutable-state-invariant
 
 # MapStateToProps
 - [] selectors paradigm
@@ -185,6 +209,8 @@ immutablejs
 - [] D3 / Victory (?)
 - [] Ramda
 - [] moment
+  "gravatar-api": "^1.4.0",
+  https://www.npmjs.com/package/obey
 
 # Utilitity Type
 https://www.npmjs.com/package/slug
@@ -192,6 +218,7 @@ shallowequal
 https://www.npmjs.com/package/query-string
 - [] mimetypes
 numeral
+https://github.com/RickWong/fetch-plus
 
 
 ## Keep in mind
