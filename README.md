@@ -159,6 +159,7 @@ styled-components
 "classnames": "^2.2.5",
 color: https://www.npmjs.com/package/color 
 chroma-js
+font-face observer
 
 # Internationalization
 https://github.com/ctrlplusb/react-universally/issues/254
